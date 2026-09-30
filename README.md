@@ -1,4 +1,4 @@
-# DVD-screensaver
+# DVD screensaver
 
 Here is a complete `C` program using `SDL2` that recreates the classic DVD screensaver.
 
