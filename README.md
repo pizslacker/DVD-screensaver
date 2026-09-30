@@ -20,6 +20,25 @@ sudo apt-get install libsdl2-dev libsdl2-image-dev
 brew install sdl2 sdl2_image
 ```
 
+## Building
+
+A `Makefile` is included for easy compilation.
+
+To compile and run it in one step:
+```bash
+make run
+```
+
+To build the project, simply run:
+```bash
+make
+```
+
+To clean up build files:
+```bash
+make clean
+```
+
 ### Usage:
 
 Run it with defaults (1280x1024):
@@ -32,24 +51,6 @@ Run it with custom dimensions (e.g., 800x600):
 ./dvd-screensaver 800 600
 ```
 
-To compile and run it in one step:
-```bash
-make run
-```
-
-## Building
-
-A `Makefile` is included for easy compilation.
-
-To build the project, simply run:
-```bash
-make
-```
-
-To clean up build files:
-```bash
-make clean
-```
 
 ### Controls
 - **ESC:** Quit the screensaver.
