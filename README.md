@@ -24,12 +24,12 @@ brew install sdl2 sdl2_image
 
 Run it with defaults (1280x1024):
 ```Bash
-./dvd_screensaver
+./dvd-screensaver
 ```
 
 Run it with custom dimensions (e.g., 800x600):
 ```Bash
-./dvd_screensaver 800 600
+./dvd-_screensaver 800 600
 ```
 
 To compile and run it in one step:
