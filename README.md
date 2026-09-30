@@ -8,7 +8,7 @@ To make the color-changing mechanic work properly, this code uses `SDL_SetTextur
 
 It also includes an open TTF font package ("**Roboto**" by Google - _Apache 2.0 License_), used for the "Corner Hits:" counter in the upper left corner.
 
-## Requirements
+## Build requirements
 
 #### On Linux (Debian/Ubuntu):
 ```bash
