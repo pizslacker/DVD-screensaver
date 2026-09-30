@@ -6,7 +6,7 @@ Here is a complete `C` program using `SDL2` that recreates the classic DVD scree
 
 To make the color-changing mechanic work properly, this code uses `SDL_SetTextureColorMod()`. Because this function multiplies the tint color against the image pixels, this program needs a solid white `PNG` of the DVD logo with a transparent background (included).
 
-It also includes an open TTF font package, used for the "corner-hit" counter in the upper left corner.
+It also includes an open TTF font package ("**Roboto**" by Google), used for the "corner-hit" counter in the upper left corner.
 
 ## Requirements
 
