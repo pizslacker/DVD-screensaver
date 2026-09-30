@@ -4,7 +4,7 @@ Here is a complete `C` program using `SDL2` that recreates the classic DVD scree
 
 ![DVD-screensaver](images/dvd-screensaver.png)
 
-To make the color-changing mechanic work properly, this code uses `SDL_SetTextureColorMod()`. Because this function multiplies the tint color against the image pixels, this program needs a solid white `PNG` of the DVD logo with a transparent background (included).
+To make the color-changing mechanic work properly, this code uses `SDL_SetTextureColorMod()`. Because this function multiplies the tint color against the image pixels, this program needs a solid white `PNG` of the DVD logo with a transparent background (this is included + [the original `SVG` vector file](https://commons.wikimedia.org/wiki/File:DVD_logo.svg)).
 
 It also includes an open TTF font package ("**Roboto**" by Google - _Apache 2.0 License_), used for the "Corner Hits:" counter in the upper left corner.
 
