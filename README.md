@@ -6,12 +6,12 @@ To make the color-changing mechanic work properly, this code uses `SDL_SetTextur
 
 ## Requirements
 
-### On Linux (Debian/Ubuntu):
+#### On Linux (Debian/Ubuntu):
 ```bash
 sudo apt-get install libsdl2-dev libsdl2-image-dev
 ```
 
-### On macOS (using Homebrew):
+#### On macOS (using Homebrew):
 ```bash
 brew install sdl2 sdl2_image
 ```
@@ -50,5 +50,3 @@ make clean
 ### Controls
 - **ESC:** Quit the screensaver.
 - **Close Window (X):** Quit the screensaver.
-README.md
-Viser README.md.
